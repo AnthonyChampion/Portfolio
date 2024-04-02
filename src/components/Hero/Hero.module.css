@@ -50,7 +50,9 @@
 .heroImg {
     width: 20%;
     z-index: 1;
-
+    border: solid 4px;
+    border-color: aliceblue;
+    border-radius: 100%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -104,5 +106,9 @@
 
     .content {
         align-items: center;
+    }
+
+    .heroImg {
+        width: 35%;
     }
 }
