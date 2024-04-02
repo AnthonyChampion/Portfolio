@@ -1,9 +1,12 @@
 import React from "react";
 
-import styles from "./About.module.css";
+import lightStyles from "./About.module.css";
+import darkStyles from "./DarkAbout.module.css";
 import { getImageUrl } from "../../utils";
 
-export const About = () => {
+export const About = ({ isDarkTheme }) => {
+    var styles = isDarkTheme ? darkStyles : lightStyles;
+
     return (
         <section className={styles.container} id="about">
             <h2 className={styles.title}>About</h2>
@@ -40,4 +43,4 @@ export const About = () => {
             </div>
         </section>
     );
-}
+};
