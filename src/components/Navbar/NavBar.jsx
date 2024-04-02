@@ -24,7 +24,7 @@ export const Navbar = ({ isDarkTheme, setIsDarkTheme }) => {
                     onClick={() => setMenuOpen(!menuOpen)}
                 />
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                    onClick={() => setMenuOpen(flase)}>
+                    onClick={() => setMenuOpen(false)}>
 
                     < li >
                         <a href="#about">About</a>
