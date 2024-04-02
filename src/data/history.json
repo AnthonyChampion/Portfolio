@@ -1,0 +1,12 @@
+[
+    {
+        "formation": "Développeur Web et web mobile",
+        "organisation": "Wild Code School",
+        "startDate": "Fevr, 2024",
+        "endDate": "En cours",
+        "experiences": [
+            "Développer les parties frontend et backend d'une application web ou web mobile"
+        ],
+        "imageSrc": "history/wcslogo.png"
+    }
+]
