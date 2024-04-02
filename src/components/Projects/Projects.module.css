@@ -18,9 +18,19 @@
     margin-top: 37px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15px;
     width: 100%;
 }
+
+@media screen and (max-width: 830px) {
+    .projects {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    ;
+}
+
+;
