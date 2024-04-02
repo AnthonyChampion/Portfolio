@@ -1,11 +1,11 @@
 [
     {
-        "formation": "Développeur Web et web mobile",
+        "formation": "Web Developer",
         "organisation": "Wild Code School",
-        "startDate": "Fevr, 2024",
-        "endDate": "En cours",
+        "startDate": "Feb, 2024",
+        "endDate": "Present",
         "experiences": [
-            "Développer les parties frontend et backend d'une application web ou web mobile"
+            "Learning and use all skills to develop a web and web mobile application"
         ],
         "imageSrc": "history/wcslogo.png"
     }

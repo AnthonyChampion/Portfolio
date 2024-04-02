@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Project 1",
+        "imageSrc": "projects/SquizzGame.png",
+        "description": "Work with a team to make a fun quiz for students.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "demo": "https://wildcodeschool-2024-02.github.io/JS-RemoteFR-P1-CodeSquad/",
+        "source": "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-CodeSquad"
+    },
+    {
+        "title": "Project 2",
+        "imageSrc": "projects/Project2.png",
+        "description": "In deployment",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React"
+        ],
+        "demo": "In deployment",
+        "source": "In deployment"
+    },
+    {
+        "title": "Project 3",
+        "imageSrc": "projects/Project2.png",
+        "description": "In deployment",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React"
+        ],
+        "demo": "In deployment",
+        "source": "In deployment"
+    }
+]
