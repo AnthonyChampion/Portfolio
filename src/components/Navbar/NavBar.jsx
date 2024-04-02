@@ -54,3 +54,4 @@ Navbar.propTypes = {
     isDarkTheme: PropTypes.bool.isRequired,
     setIsDarkTheme: PropTypes.func.isRequired,
 };
+

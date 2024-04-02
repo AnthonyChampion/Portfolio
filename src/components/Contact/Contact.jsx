@@ -29,6 +29,7 @@ export const Contact = () => {
                 <li className={styles.link}>
                     <p><a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by Muhammad Ali - Flaticon</a>
                     </p>
+
                 </li>
             </ul>
         </footer>
