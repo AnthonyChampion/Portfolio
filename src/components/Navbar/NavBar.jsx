@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-import styles from "./NavBar.module.css";
+import lightStyles from "./NavBar.module.css";
+import darkStyles from "./DarkNavBar.module.css";
 import { getImageUrl } from "../../utils";
 
 
 export const Navbar = ({ isDarkTheme, setIsDarkTheme }) => {
     const [menuOpen, setMenuOpen] = useState(false);
-
+    var styles = isDarkTheme ? darkStyles : lightStyles;
 
     return (
         <nav className={styles.navbar}>

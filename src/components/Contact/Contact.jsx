@@ -1,9 +1,12 @@
 import React from "react";
 
-import styles from "./Contact.module.css";
+import lightStyles from "./Contact.module.css";
+import darkStyles from "./DarkContact.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Contact = () => {
+export const Contact = ({ isDarkTheme }) => {
+    var styles = isDarkTheme ? darkStyles : lightStyles;
+
     return (
         <footer id="contact" className={styles.container}>
             <div className={styles.text}>

@@ -6,6 +6,7 @@ import { getImageUrl } from "../../utils";
 export const ProjectCard = ({
     project: { title, imageSrc, description, skills, demo, source },
 }) => {
+
     return (
         <div className={styles.container}>
             <img
