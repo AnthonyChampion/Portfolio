@@ -1,12 +1,9 @@
 import React from "react";
 
-import lightStyles from "./Hero.module.css";
-import darkStyles from "./DarkHero.module.css";
+import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Hero = ({ isDarkTheme }) => {
-    var styles = isDarkTheme ? darkStyles : lightStyles;
-
+export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>

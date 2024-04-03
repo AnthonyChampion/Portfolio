@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
-import lightStyles from "./NavBar.module.css";
-import darkStyles from "./DarkNavBar.module.css";
+import styles from "./NavBar.module.css";
 import { getImageUrl } from "../../utils";
 
 
-export const Navbar = ({ isDarkTheme, setIsDarkTheme }) => {
+export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    var styles = isDarkTheme ? darkStyles : lightStyles;
 
     return (
         <nav className={styles.navbar}>
@@ -40,10 +37,6 @@ export const Navbar = ({ isDarkTheme, setIsDarkTheme }) => {
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
-                    <input
-                        type="checkbox"
-                        checked={isDarkTheme ? "checked" : ""}
-                        onClick={() => setIsDarkTheme(!isDarkTheme)} />
                 </ul>
 
             </div >
@@ -52,8 +45,5 @@ export const Navbar = ({ isDarkTheme, setIsDarkTheme }) => {
     );
 };
 
-Navbar.propTypes = {
-    isDarkTheme: PropTypes.bool.isRequired,
-    setIsDarkTheme: PropTypes.func.isRequired,
-};
+
 

@@ -1,14 +1,11 @@
 import React from "react";
 
-import lightStyles from "./Projects.module.css";
-import darkStyles from "./DarkProjects.module.css";
+import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
-export const Projects = ({ isDarkTheme }) => {
-    var styles = isDarkTheme ? darkStyles : lightStyles;
-
+export const Projects = () => {
     return (
         <section className={styles.container} id="projects">
             <h2 className={styles.title}>Projects</h2>
