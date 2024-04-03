@@ -1,12 +1,9 @@
 import React from "react";
 
-import lightStyles from "./Contact.module.css";
-import darkStyles from "./DarkContact.module.css";
+import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Contact = ({ isDarkTheme }) => {
-    var styles = isDarkTheme ? darkStyles : lightStyles;
-
+export const Contact = () => {
     return (
         <footer id="contact" className={styles.container}>
             <div className={styles.text}>
@@ -28,7 +25,6 @@ export const Contact = ({ isDarkTheme }) => {
                 <li className={styles.link}>
                     <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
                     <a href="https://github.com/AnthonyChampion">github.com/AnthonyChampion</a>
-
                 </li>
                 <li className={styles.link}>
                     <p><a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by Muhammad Ali - Flaticon</a>

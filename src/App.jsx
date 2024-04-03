@@ -12,13 +12,13 @@ function App() {
 
   return <div className={styles.App}>
     <Navbar isDarkTheme={isDarkTheme} setIsDarkTheme={setIsDarkTheme} />
-    <Hero isDarkTheme={isDarkTheme} />
-    <About isDarkTheme={isDarkTheme} />
-    <Experience isDarkTheme={isDarkTheme} />
-    <Projects isDarkTheme={isDarkTheme} />
-    <Contact isDarkTheme={isDarkTheme} />
+    <Hero />
+    <About />
+    <Experience />
+    <Projects />
+    <Contact />
   </div>;
 
-};
+}
 
 export default App;
