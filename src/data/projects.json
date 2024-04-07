@@ -14,27 +14,27 @@
     {
         "title": "Project 2",
         "imageSrc": "projects/Project2.png",
-        "description": "In deployment",
+        "description": "In progress",
         "skills": [
             "HTML",
             "CSS",
             "Javascript",
             "React"
         ],
-        "demo": "In deployment",
-        "source": "In deployment"
+        "demo": "In progress",
+        "source": "In progress"
     },
     {
         "title": "Project 3",
         "imageSrc": "projects/Project2.png",
-        "description": "In deployment",
+        "description": "Future",
         "skills": [
             "HTML",
             "CSS",
             "Javascript",
             "React"
         ],
-        "demo": "In deployment",
-        "source": "In deployment"
+        "demo": "Future",
+        "source": "Future"
     }
 ]
