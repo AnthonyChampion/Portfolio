@@ -21,7 +21,7 @@ export const About = () => {
                         <div className={styles.aboutItemtext}>
                             <h3>Frontend Developer</h3>
                             <p>
-                                I actually learn how to make responsive and optimised sites
+                                I love design and make beautiful and optimised sites
                             </p>
                         </div>
                     </li>
@@ -32,7 +32,7 @@ export const About = () => {
                         <div className={styles.aboutItemtext}>
                             <h3>Backend Developer</h3>
                             <p>
-                                With my learnings I'll be able to develop fast and optimised APIs
+                                I'm able to develop fast and optimised APIs
                             </p>
                         </div>
                     </li>
