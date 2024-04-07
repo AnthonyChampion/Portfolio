@@ -8,7 +8,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I am Anthony</h1>
-                <p className={styles.description}>I'm a developer in learning. </p>
+                <p className={styles.description}>I'm a web developer </p>
                 <a href="mailto:anthonyrodrigues.c@gmail.com"
                     className={styles.contactBtn}>Contact Me</a>
             </div>

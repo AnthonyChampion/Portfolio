@@ -50,7 +50,7 @@
 .heroImg {
     width: 20%;
     z-index: 1;
-    border: solid 4px;
+    border: solid 1.5px;
     border-color: aliceblue;
     border-radius: 100%;
     animation-name: floating;
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .content {
@@ -109,6 +109,6 @@
     }
 
     .heroImg {
-        width: 35%;
+        display: none;
     }
 }

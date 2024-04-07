@@ -18,5 +18,9 @@
     {
         "title": "Figma",
         "imageSrc": "skills/figma.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
     }
 ]

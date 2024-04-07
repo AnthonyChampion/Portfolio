@@ -21,7 +21,7 @@ export const About = () => {
                         <div className={styles.aboutItemtext}>
                             <h3>Frontend Developer</h3>
                             <p>
-                                I actually learn how to make responsive and optimided sites
+                                I actually learn how to make responsive and optimised sites
                             </p>
                         </div>
                     </li>
