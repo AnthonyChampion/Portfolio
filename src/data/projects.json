@@ -1,6 +1,6 @@
 [
     {
-        "title": "Project 1",
+        "title": "Project 1: Squizzz Game",
         "imageSrc": "projects/SquizzGame.png",
         "description": "Work with a team to make a fun quiz for students.",
         "skills": [
@@ -12,9 +12,9 @@
         "source": "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-CodeSquad"
     },
     {
-        "title": "Project 2",
+        "title": "Project 2: MovInder",
         "imageSrc": "projects/Project2.png",
-        "description": "In progress",
+        "description": "On going",
         "skills": [
             "HTML",
             "CSS",
@@ -27,7 +27,7 @@
     {
         "title": "Project 3",
         "imageSrc": "projects/Project2.png",
-        "description": "Future",
+        "description": "To define shortly",
         "skills": [
             "HTML",
             "CSS",
