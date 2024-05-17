@@ -12,17 +12,17 @@
         "source": "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-CodeSquad"
     },
     {
-        "title": "Project 2: MovInder",
-        "imageSrc": "projects/Project2.png",
-        "description": "On going",
+        "title": "Project 2: Movinder",
+        "imageSrc": "projects/Movinder.png",
+        "description": "Mobile app using API to find movies, their details and save them to watch later",
         "skills": [
             "HTML",
             "CSS",
             "Javascript",
             "React"
         ],
-        "demo": "In progress",
-        "source": "In progress"
+        "demo": "https://movinder-wild.netlify.app/",
+        "source": "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-Gridception-P2-LOMASHOW"
     },
     {
         "title": "Project 3",
